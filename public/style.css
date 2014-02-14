@@ -1,14 +1,26 @@
 #wrapper {
 }
 #main_header{
-  background: silver;
-  height:200px;
+  background: #666444;
+  height:100px;
 }
 #logo {
-  width: 2em;
+  width: 100px;
   float: left;
   margin-left: 100px;
+  margin-top: 20px;
+  border: 2px solid white;
 }
 #main_nav{
-  
+  margin:auto;
+  width:960px;
+}
+#main_nav li{
+  list-style: none;
+  padding: 1em;
+  float: left;
+  color: white;
+  margin-top: 20px;
+  font-family:verdana;
+  text-transform: uppercase;
 }
