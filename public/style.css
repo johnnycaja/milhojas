@@ -9,7 +9,8 @@
   float: left;
   margin-left: 100px;
   margin-top: 20px;
-  border: 2px solid white;
+  border: 3px solid white;
+  border-radius: 30px;
 }
 #main_nav{
   margin:auto;
@@ -20,7 +21,26 @@
   padding: 1em;
   float: left;
   color: white;
-  margin-top: 20px;
+  margin-top: 25px;
   font-family:verdana;
   text-transform: uppercase;
+}
+#mid_banner {
+  background-image: url("http://www.frugals.ca/wp-content/uploads/2014/01/Mountains-Switzerland-Bernese-Oberland-High-Resolution-Wallpapers.jpg");
+  height: 400px;
+  position: relative;
+}
+#slogan {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 35%;
+  width: 500px;
+  font-family: 'Gabriela', serif;
+}
+#slogan p {
+  color: white;
+  text-shadow: 2px 2px black; 
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: justify;
 }
