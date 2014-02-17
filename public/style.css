@@ -44,3 +44,20 @@
   text-transform: uppercase;
   text-align: justify;
 }
+#banner_2 {
+  position: relative;
+  height: 120px;
+  background: #2d2c2c;
+}
+#coin_group {
+  position: absolute;
+  margin-left: 800px;
+}
+.moneda {
+  width: 75px;
+  float: left;
+  margin-left: 75px;
+  margin-top: 20px;
+  border: 3px solid white;
+  border-radius: 100%;
+}
